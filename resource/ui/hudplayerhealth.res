@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-200"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"c0"	[$WIN32]
+		"ypos"			"c30"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -87,7 +87,25 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White_misc"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"48"
+		"xpos_minmode"	"61"
+		"ypos"			"22"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"78"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"Black_misc"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+	    //custom colors
+		"White_misc"         "255 255 255 255"
+	    "Black_misc"         "0 0 0 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -5838,6 +5842,18 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		"TF2Build60"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"60"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		}
 	}
 }
